@@ -1,0 +1,20 @@
+.head-container {
+    width: 100%;
+    background: linear-gradient(50deg, #0e0716 0%, #5b84cb 100%);
+    padding: 30px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.head-text {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.head-container.collapsed {
+    padding: 15px 0;
+}
